@@ -19,6 +19,19 @@ nav {
   text-align: center;
 }
 
+nav>ul>li>a{
+  text-decoration:none;
+  color: black;
+  margin: 0 -.50rem;
+  padding: 0 .50rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+nav>ul>li>a:hover{
+  animation-duration: 5s;
+  box-shadow: inset 100px 0 0 0 #6BB7E2;
+  color: white;
+}
 ul {
   display:flex;
   flex-direction: row;
